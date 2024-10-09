@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-26T13:57:25 IST" name="Master Suite" finished-at="2024-09-26T13:58:44 IST" duration-ms="78123">
+    <groups>
+      <group name="Sanity">
+        <method signature="TC_001_RegisterUserTest.verifyAccountCreated()[pri:2, instance:testCases.TC_001_RegisterUserTest@28a0fd6c]" name="verifyAccountCreated" class="testCases.TC_001_RegisterUserTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_001_RegisterUserTest.verifyHomePageIsVisible()[pri:1, instance:testCases.TC_001_RegisterUserTest@28a0fd6c]" name="verifyHomePageIsVisible" class="testCases.TC_001_RegisterUserTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2024-09-26T13:57:25 IST" name="Test" finished-at="2024-09-26T13:58:44 IST" duration-ms="78123">
+      <class name="testCases.TC_001_RegisterUserTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_RegisterUserTest@28a0fd6c]" started-at="2024-09-26T13:57:26 IST" name="setup" finished-at="2024-09-26T13:57:44 IST" duration-ms="18090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePageIsVisible()[pri:1, instance:testCases.TC_001_RegisterUserTest@28a0fd6c]" started-at="2024-09-26T13:57:44 IST" name="verifyHomePageIsVisible" finished-at="2024-09-26T13:57:44 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageIsVisible -->
+        <test-method signature="verifyAccountCreated()[pri:2, instance:testCases.TC_001_RegisterUserTest@28a0fd6c]" started-at="2024-09-26T13:57:44 IST" name="verifyAccountCreated" finished-at="2024-09-26T13:57:54 IST" duration-ms="10261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountCreated -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_RegisterUserTest@28a0fd6c]" started-at="2024-09-26T13:57:54 IST" name="tearDown" finished-at="2024-09-26T13:57:54 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_RegisterUserTest -->
+      <class name="testCases.TC_002_LoginWithCorrectEmail_PasswordTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_LoginWithCorrectEmail_PasswordTest@841e575]" started-at="2024-09-26T13:57:54 IST" name="setup" finished-at="2024-09-26T13:58:02 IST" duration-ms="7816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePageIsVisible1()[pri:1, instance:testCases.TC_002_LoginWithCorrectEmail_PasswordTest@841e575]" started-at="2024-09-26T13:58:02 IST" name="verifyHomePageIsVisible1" finished-at="2024-09-26T13:58:05 IST" duration-ms="2503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageIsVisible1 -->
+        <test-method signature="verifyLoginIsSuccessfull()[pri:2, instance:testCases.TC_002_LoginWithCorrectEmail_PasswordTest@841e575]" started-at="2024-09-26T13:58:05 IST" name="verifyLoginIsSuccessfull" finished-at="2024-09-26T13:58:07 IST" duration-ms="2628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginIsSuccessfull -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_LoginWithCorrectEmail_PasswordTest@841e575]" started-at="2024-09-26T13:58:07 IST" name="tearDown" finished-at="2024-09-26T13:58:07 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_LoginWithCorrectEmail_PasswordTest -->
+      <class name="testCases.TC_004_LogoutUser_Test">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_LogoutUser_Test@1e5f4170]" started-at="2024-09-26T13:58:22 IST" name="setup" finished-at="2024-09-26T13:58:32 IST" duration-ms="9426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginToAccount()[pri:1, instance:testCases.TC_004_LogoutUser_Test@1e5f4170]" started-at="2024-09-26T13:58:32 IST" name="LoginToAccount" finished-at="2024-09-26T13:58:39 IST" duration-ms="6780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToAccount -->
+        <test-method signature="LogoutUser()[pri:2, instance:testCases.TC_004_LogoutUser_Test@1e5f4170]" started-at="2024-09-26T13:58:39 IST" name="LogoutUser" finished-at="2024-09-26T13:58:43 IST" duration-ms="4617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_004_LogoutUser_Test@1e5f4170]" started-at="2024-09-26T13:58:43 IST" name="tearDown" finished-at="2024-09-26T13:58:44 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_004_LogoutUser_Test -->
+      <class name="testCases.TC_003_Login_User_with_incorrect_email_and_passwordTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Login_User_with_incorrect_email_and_passwordTest@27a5328c]" started-at="2024-09-26T13:58:07 IST" name="setup" finished-at="2024-09-26T13:58:18 IST" duration-ms="10666" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePageIsVisible2()[pri:1, instance:testCases.TC_003_Login_User_with_incorrect_email_and_passwordTest@27a5328c]" started-at="2024-09-26T13:58:18 IST" name="verifyHomePageIsVisible2" finished-at="2024-09-26T13:58:20 IST" duration-ms="2044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageIsVisible2 -->
+        <test-method signature="VerifyNegativeLoginScenario()[pri:2, instance:testCases.TC_003_Login_User_with_incorrect_email_and_passwordTest@27a5328c]" started-at="2024-09-26T13:58:20 IST" name="VerifyNegativeLoginScenario" finished-at="2024-09-26T13:58:22 IST" duration-ms="2100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNegativeLoginScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_Login_User_with_incorrect_email_and_passwordTest@27a5328c]" started-at="2024-09-26T13:58:22 IST" name="tearDown" finished-at="2024-09-26T13:58:22 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_003_Login_User_with_incorrect_email_and_passwordTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Master Suite -->
+</testng-results>

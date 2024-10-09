@@ -1,0 +1,22 @@
+2024-09-26 13:57:25 INFO  Utils:112 - [TestNG] Running:
+  E:\Automation Workspace\AutomationExercise\master.xml
+
+2024-09-26 13:57:44 INFO  TC_001_RegisterUserTest:51 - ***** Starting TC_001_RegisterUserTest: verifyHomePageIsVisible *****
+2024-09-26 13:57:44 INFO  TC_001_RegisterUserTest:58 - Home page is displayed successfully.
+2024-09-26 13:57:44 INFO  TC_001_RegisterUserTest:79 - ***** Starting TC_001_RegisterUserTest: verifyAccountCreated *****
+2024-09-26 13:57:51 INFO  TC_001_RegisterUserTest:123 - Account Created Successfully
+2024-09-26 13:57:54 INFO  TC_001_RegisterUserTest:140 - **** Finished TC_001_RegisterUserTest ****
+2024-09-26 13:58:02 INFO  TC_002_LoginWithCorrectEmail_PasswordTest:31 - *** Starting TC_002_LoginWithCorrectEmail_Password - verifyHomePageIsVisible() ***
+2024-09-26 13:58:02 INFO  TC_002_LoginWithCorrectEmail_PasswordTest:37 - Home page is displayed successfully.
+2024-09-26 13:58:05 INFO  TC_002_LoginWithCorrectEmail_PasswordTest:45 - Successfully Navigated To Login Page.
+2024-09-26 13:58:05 INFO  TC_002_LoginWithCorrectEmail_PasswordTest:73 - *** Starting TC_002_LoginWithCorrectEmail_Password - verifyLoginIsSuccessfull()
+2024-09-26 13:58:07 INFO  TC_002_LoginWithCorrectEmail_PasswordTest:88 - Successfully Login into the application
+2024-09-26 13:58:18 INFO  TC_003_Login_User_with_incorrect_email_and_passwordTest:22 - ***  TC_003_Login_User_with_incorrect_email_and_password - Started successfully 
+2024-09-26 13:58:18 INFO  TC_003_Login_User_with_incorrect_email_and_passwordTest:29 - Home Page is displayed successfully
+2024-09-26 13:58:20 INFO  TC_003_Login_User_with_incorrect_email_and_passwordTest:37 - Succefully verified login text
+2024-09-26 13:58:22 INFO  TC_003_Login_User_with_incorrect_email_and_passwordTest:69 - Error message occurred successfully for incorrect username and password
+2024-09-26 13:58:32 INFO  TC_004_LogoutUser_Test:27 - *** TC_004_LogoutUser_Test - Started ***
+2024-09-26 13:58:32 INFO  TC_004_LogoutUser_Test:33 - Home Page displayed successfully
+2024-09-26 13:58:34 INFO  TC_004_LogoutUser_Test:41 - Login Text Verified
+2024-09-26 13:58:39 INFO  TC_004_LogoutUser_Test:55 - Login Successfully
+2024-09-26 13:58:43 INFO  TC_004_LogoutUser_Test:76 - Logout Successful
